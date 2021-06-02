@@ -1,7 +1,7 @@
 # mern-stack-guide
 personal guide and complete reference for mern-stack
 ## javaScript
-	### what ever you are seeing and entering on the javascript based apps is of type only string, the rest is taken care by javascript
+### what ever you are seeing and entering on the javascript based apps is of type only string, the rest is taken care by javascript
 ## es6 features
 
 ## Front end
