@@ -32,5 +32,47 @@ personal guide and complete reference for mern-stack
 
 		### state
 		- Dont change the state directly, use react internal methods to update/change the state. If you change/mutate the state directly, react dont update to the real dom, if you use react methods : it will compare the state with virtual dom and update it to the real DOM.
+		### from handling in react
+		- https://github.com/jquense/yup
+		- https://formik.org/docs/overview
+		### Redux
+		- React=>Actions=>Reducers=>Store=>React-View
+		- Redux store is immutable/notChangable, reducer dont change the store but gives you a new Store.
+		- Actions
+			- on click button send an action to reducer.=> reducer will read it
+			- action contains {type:"",payload:""}
+			- actions are like plane javaScript object
+			- actions are like love letters : which has love type and main naughty matter/payload.
+			- its like a action letter passed by collector=> which letter type and letter content/payload
+		- Reducers
+			- are pure functions, it takes (state, action)
+			- reducer is like police, which has to access to people and letter passed by collector.
+			- Reducer never changes the state, instead they will create new state object, because if you change the store state directly how do you know what is the different between current sate and previous state, to debug the redux store with past and current values , you need to create a new state every time.
+		- Pure Functions
+			- Doesnt have side effects (api calls), Reducers dont have api calls.
+			- Doesnt modify its arguments
+		- Store
+			- Store is like a place, which has a reducers.
+			- Store is like a gold treasure, if you need to do anything only possible through Reducer/Police person.
+			- it has three methods
+				- store.getState()
+				- store.dispatch()
+				- store.subscribe()
+			- extra
+				- Redux.combineReducers()
+				- Redux.applyMiddleware()
+		- connect function in react-redux
+			- connect function returns store as first argument
+			- connect function returns dispatch as second argument
+			- connect it self is a function which has store and dispatch as a variables and now, connect function takes our component and runs: so that our component will get props from the store.
+			- mapStateToProps
+				- Takes store and returns object which has store data.
+				- mapStateToProps gets state from connect function
+			- mapDispatchToProps
+				- Takes dispatch and returns object which dispatches an action
+				- mapDispatchToProps gets dispatch from connect function
+		### Redux-logger
+			- acts as a middleware for redux applications.
+			
 			
 ## Back end
