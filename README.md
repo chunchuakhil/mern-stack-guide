@@ -71,7 +71,7 @@ personal guide and complete reference for mern-stack
 			- mapDispatchToProps
 				- Takes dispatch and returns object which dispatches an action
 				- mapDispatchToProps gets dispatch from connect function
-		### Redux-logger
+		- Redux-logger
 			- acts as a middleware for redux applications.
 			
 			
