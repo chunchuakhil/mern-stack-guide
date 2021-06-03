@@ -28,5 +28,9 @@ personal guide and complete reference for mern-stack
 			- a class component has state, lifecycle methods and React creates an instance of a class component every time React renders it.
 			- functional component => just return jsx to and render based on the props, we cant do sideEffects like api calls.
 			- class component => returns with render function, because we can call render multiple times, we have react component life cycle methods to do something before render, and after render. ex: we can make a api just before the render happens, so that our data well be ready to display on the screen.
+		- if your are using React, dont touch the real DOM. React will handle every thing for you. If you still use it: your dom manipulation and react dom manipulation may colide and lead to errors.
+
+		### state
+		- Dont change the state directly, use react internal methods to update/change the state. If you change/mutate the state directly, react dont update to the real dom, if you use react methods : it will compare the state with virtual dom and update it to the real DOM.
 			
 ## Back end
