@@ -6,7 +6,6 @@ personal guide and complete reference for mern-stack
 
 ## Front end
 - Front end
- - step 1
     - initial stater guide.
     - donts => dont install react things globally, because versions may vary from project to project.
     - first install node js latest version
@@ -73,6 +72,10 @@ personal guide and complete reference for mern-stack
 				- mapDispatchToProps gets dispatch from connect function
 		- Redux-logger
 			- acts as a middleware for redux applications.
-			
+		### Redux - Saga
+			### pre requi for redux - saga
+			- es5
+				- setInterval has (handlerFunction, timeInterval)
+				- 
 			
 ## Back end
