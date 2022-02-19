@@ -108,7 +108,7 @@ Front end
 
 ​	if you are not able to predict whats happening in sideeffects like api calls use redux-saga
 
-##### 		what redux can do...?
+##### 		what redux saga can do...?
 
 1. managing sideeffects easiser and managable
 
