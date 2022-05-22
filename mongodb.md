@@ -1,5 +1,5 @@
 
-
+> Written with [StackEdit](https://stackedit.io/).
 # Mongo DB Guide
 
 cred
